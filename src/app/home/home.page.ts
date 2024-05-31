@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  formateur:string = "Amine";
+  names : string[] = ["Amine","Romain","Emmy"];
   constructor() {}
 
 }
