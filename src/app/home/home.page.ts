@@ -9,6 +9,9 @@ export class HomePage {
 
   formateur:string = "Amine";
   names : string[] = ["Amine","Romain","Emmy"];
+  dispaly(){
+    alert("Vous avez cliquer ici...");
+  }
   constructor() {}
 
 }
